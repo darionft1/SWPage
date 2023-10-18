@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    color: #fff;
 }
 
 body{
@@ -10,6 +12,48 @@ body{
     background-size: cover;
 }
 
-h1{
-    font-family: 'star wars', sans-serif;
+a{
+    text-decoration: none;
 }
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    width: 40%;
+    height: auto;
+}
+
+.logo-text{
+    font-family: 'Star Wars', sans-serif;
+    font-size: 1rem;
+}
+
+.social-media{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 1.2rem;
+}
+
+i:hover{
+    color: gold;
+}
+
+
+
