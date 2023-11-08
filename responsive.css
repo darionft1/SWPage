@@ -1,0 +1,47 @@
+@media screen and (max-width: 536px) {
+    
+    .modalContent{
+        width: 75%;
+        height: 70vh;
+        background-color: #0d0d0d;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 30px 10px;
+        align-items: center;
+    }
+
+    .cards{
+
+        width: 80%;
+        height: 470px;
+        display: flex;
+        background-position: 50% 50%;
+        background-size: cover;
+        align-items: end;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 5px;
+    }
+
+    h2{
+        font-family: 'Star Wars', sans-serif;
+        font-size: 1.1rem;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: gold;
+        font-weight: 300;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        row-gap: 10px;
+        margin: 40px 0 20px 0;
+    }    
+}
